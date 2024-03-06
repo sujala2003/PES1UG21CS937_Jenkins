@@ -1,8 +1,8 @@
 #include<iostream>
 using namespace std;
 
-int main()
+int main(void)
 {
-  cout <<"Hello this is task 5."<<endl;
+  cout <<"Hello this is task 5.\n";
   return 0;
 }
