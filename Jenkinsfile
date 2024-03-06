@@ -7,7 +7,7 @@ pipeline {
                 script {
                     // Compile the .cpp file using shell script
                     build 'PES1UG21CS937-1'
-                    sh 'g++ -o PES1UG21CS937. PES1UG21CS937-1.cpp'
+                    sh 'g++ task5.cpp -o output'
                 }
             }
         }
@@ -15,7 +15,7 @@ pipeline {
             steps {
                 script {
                     // Print output of .cpp file using shell script
-                    sh './PES1UG21CS937'
+                    sh './output'
                 }
             }
         }
